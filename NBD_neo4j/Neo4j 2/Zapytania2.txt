@@ -1,0 +1,4 @@
+1. MATCH trasa=shortestPath(({name:"Darjeeling"})-[*]->({name:"Sandakphu"}))RETURN trasa
+2. MATCH trasa=shortestPath(({name:"Darjeeling"})-[*]->({name:"Sandakphu"})) WHERE ALL (t IN RELATIONSHIPS(trasa) WHERE t.winter = "true") RETURN trasa
+3. 
+4.
