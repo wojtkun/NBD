@@ -1,0 +1,13 @@
+curl -i http://localhost:8098/buckets/s23682/keys/19h6DHlrnCL7IXtGaNT805srKXF
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVh7s7zrPwOCnmMGUyJjHyjBxsdstviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23682>; rel="up"
+Last-Modified: Tue, 22 Jun 2021 18:10:25 GMT
+ETag: "1px5SCgbFSoXJblRy3OnEy"
+Date: Tue, 22 Jun 2021 18:11:42 GMT
+Content-Type: application/json
+Content-Length: 12
+
+'{k1:5.121}'

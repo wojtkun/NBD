@@ -1,0 +1,13 @@
+C:\Windows\system32>curl -i -XPUT -d '{"k1":"222"}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23682/keys/wart2?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVh6caN/AwOCnmMGUyJzHyrBmgdstviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23682>; rel="up"
+Last-Modified: Tue, 22 Jun 2021 17:58:04 GMT
+ETag: "5PAMeZFBYcot1uO70QekuD"
+Date: Tue, 22 Jun 2021 17:58:04 GMT
+Content-Type: application/json
+Content-Length: 10
+
+'{k1:222}'

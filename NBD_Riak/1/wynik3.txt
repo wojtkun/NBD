@@ -1,0 +1,12 @@
+C:\Windows\system32>curl -i -XPUT -d '{"k1":"1","k2":x, "k3":"x1"}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23682/keys/wart1?returnbody=true
+curl: (3) [globbing] unmatched close brace/bracket in column 6
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVh7sPX+egcFPMYMpkT2PlYFzgdstviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23682>; rel="up"
+Last-Modified: Tue, 22 Jun 2021 17:55:21 GMT
+ETag: "3YIEP3IbJDsEHL4Xnfg7w7"
+Date: Tue, 22 Jun 2021 17:55:21 GMT
+Content-Type: application/json
+Content-Length: 12

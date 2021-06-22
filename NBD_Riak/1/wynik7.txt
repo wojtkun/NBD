@@ -1,0 +1,8 @@
+C:\Windows\system32>curl -i http://localhost:8098/buckets/s23682/keys/wart5
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 22 Jun 2021 18:03:58 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

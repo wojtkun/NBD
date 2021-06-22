@@ -1,0 +1,8 @@
+C:\Windows\system32>curl -i -XPOST -d '{"k1":"5.121"}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23682/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s23682/keys/19h6DHlrnCL7IXtGaNT805srKXF
+Date: Tue, 22 Jun 2021 18:10:25 GMT
+Content-Type: application/json
+Content-Length: 0
